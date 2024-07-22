@@ -38,7 +38,7 @@ The coordinates of each image are present in `data/dataBase_FINAL.csv`, with oth
 ---
 
 ## Figures
-Figures and Tables will be stored in figures_tables/.
+Some figures and Tables will be stored in figures_tables/.
 
 The following Figures and Tables can be reproduced with the script indicated in brackets (all in analyses/):
  - Figure 3 (`Modeling_final.R`)

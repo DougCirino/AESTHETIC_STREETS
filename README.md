@@ -48,7 +48,7 @@ The following Figures and Tables can be reproduced with the script indicated in 
  - Figure 8a (`GVI_Aesthetics_MAP.R`)
  - Figures S1 to S11 (`Social_characteristis_test.R`) - needs to download and threat the images from flicker
  - Figures S12 and S13 (`Modeling_final.R`)
- - Figures S14 to S16 (`Features_Analysis.R`)
+ - Figures S14 to S16 (`Features_Analysis.R`) - - needs to download and threat the images from flicker
  - Figure S17 (`correlation_GVI_Aesthetics.R`)
  - Figure S18 (`Social_characteristis_test.R`)
  - Table S1 to Table S4 (`Modeling_final.R`)

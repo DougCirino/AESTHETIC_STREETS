@@ -4,6 +4,7 @@
 #'This script 
 #'  - get the google street view images using the google API and the R package googleway
 #'
+#'Note that the google street view images are not hosted on the git repo given the size of the dir
 #'
 #'
 #' @author Nicolas Mouquet, \email{nicolas.mouquet@@cnrs.fr},

@@ -16,8 +16,6 @@
 #' @date 2023/06/21 first created
 ##################################################################################################
 
-#TRAIN THE SURVEY DEEP----
-
   beleza_all <- read.table(here::here('results','elo_deep_beleza.txt'), header = FALSE, sep = ",", dec = ".")
   
   beleza_train <- beleza_all[sample(1:dim(beleza_all)[1],round(dim(beleza_all)[1]*0.7)),]
@@ -28,6 +26,4 @@
   write.table(beleza_train,here::here("results","deep","beleza_train.txt"),row.names = F,col.names = F,quote = FALSE,sep=",")
   write.table(beleza_test,here::here("results","deep","beleza_test.txt"),row.names = F,col.names = F,quote = FALSE,sep=",")
   write.table(beleza_val,here::here("results","deep","beleza_val.txt"),row.names = F,col.names = F,quote = FALSE,sep=",")
-
-#----
 

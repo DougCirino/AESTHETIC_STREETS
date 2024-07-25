@@ -19,7 +19,9 @@ This repository is structured as follows:
   - `correlation_GVI_Aesthetics.R`: analysis of the correlation between green view index and aesthetics
   - `GVI_Aesthetics_MAP.R`: produces a biplot map between GVI and aesthetics - Fig. 8A
   - `supply_demand.R`: analysis of the supply of the aesthetical E.S. and the local demand. Produces the biplot between supply and demand - Fig. 5C
-  - `Google_streets.R`: get the Google Street View images using the Google API and the R package googleway used for further extrapolation of the Elo scoring
+  - `Google_streets2.R`: get the Google Street View images using the Google API and the R package googleway used for further extrapolation of the Elo scoring
+  - `Deep_prepare_data.R`: prepare data for the deep learning 
+- **analyses/deep**:Contain the python deep learning code used to predict the aesthetic scores of the google streets images
 - **results/**: follows the structure of analyses. Contains intermediate results and the numeric results used to produce the figures.
 
 ---

@@ -43,11 +43,11 @@ The coordinates of each image are present in `data/dataBase_FINAL.csv`, with oth
 Some figures and Tables will be stored in figures_tables/.
 
 The following Figures and Tables can be reproduced with the script indicated in brackets (all in analyses/):
+ - Figure 2 (`Modeling_final.R`)
  - Figure 3 (`Modeling_final.R`)
- - Figure 4 (`Modeling_final.R`)
- - Figure 5c (`supply_demand.R`)
- - Figure 7 (`Social_characteristis_test.R`) -  needs to download and threat the images from flicker
- - Figure 8a (`GVI_Aesthetics_MAP.R`)
+ - Figure 4c (`supply_demand.R`)
+ - Figure 6 (`Social_characteristis_test.R`) -  needs to download and threat the images from flicker
+ - Figure 7a (`GVI_Aesthetics_MAP.R`)
  - Figures S1 to S11 (`Social_characteristis_test.R`) - needs to download and threat the images from flicker
  - Figures S12 and S13 (`Modeling_final.R`)
  - Figures S14 to S16 (`Features_Analysis.R`) - - needs to download and threat the images from flicker

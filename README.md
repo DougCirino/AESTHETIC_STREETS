@@ -28,7 +28,7 @@ This repository is structured as follows:
 
 ## Storage
 
-All the 420 images used for the survey and for the final statistical modeling are available on Flickr: [https://www.flickr.com/photos/197958479@N08/albums/72177720306842197](https://www.flickr.com/photos/197958479@N08/albums/72177720306842197)  
+All the 420 images used for the survey and for the final statistical modeling are available downloading trough the Google API exemples at `Google_streets2.R` . The coordinates of our samples are presented in `data/dataBase_FINAL.csv`. 
 All the images were resized and treated by the script `analysis/Images/Images.R`
 
 ---

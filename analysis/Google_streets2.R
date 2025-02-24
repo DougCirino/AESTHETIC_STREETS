@@ -35,7 +35,7 @@ lapply(1:nrow(street_raw), function(i){
 })
 
 
-#POSTER 
+#POSTER---- 
 
 list_img <- list.files(here::here("data","BIG_FILES","ggstreet","png"),full.names=TRUE)
 pbmcapply::pbmclapply(list_img, function(id){
@@ -64,6 +64,7 @@ poster(path_photo <- here::here("data","BIG_FILES","ggstreet","jpg"),
        sizered=1
 )
 
+#----
 
 
 

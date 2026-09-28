@@ -59,3 +59,31 @@ print(scatter_plot_with_r_squared)
 # Create and summarize the linear model
 model <- lm(greenView_ ~ aesthetic_, data = data)
 summary(model)
+
+
+# Remove rows with missing or infinite values in greenView_ or aesthetic_
+data <- data[is.finite(data$greenView_) & is.finite(data$aesthetic_), ]
+
+
+# Pearson correlation: statistics requested by reviewer ---------------------
+
+pearson_gvi_aesthetic <- cor.test(
+  data$greenView_,
+  data$aesthetic_,
+  method = "pearson"
+)
+
+# Extract statistics
+r_pearson <- unname(pearson_gvi_aesthetic$estimate)
+r_squared <- r_pearson^2
+n_cells <- nrow(data)
+p_value <- pearson_gvi_aesthetic$p.value
+
+# Print results
+cat(
+  "\nPearson correlation between GVI and aesthetic value:\n",
+  "r =", round(r_pearson, 3), "\n",
+  "R² =", round(r_squared, 3), "\n",
+  "n =", n_cells, "\n",
+  "p =", format.pval(p_value, digits = 3, eps = 2.2e-16), "\n"
+)
